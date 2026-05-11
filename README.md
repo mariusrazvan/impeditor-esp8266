@@ -1,4 +1,4 @@
-WiFi Lab Firmware (Impeditor)
+Impeditor Firmware
 
 This firmware is designed for network analysis and management frame injection in a private, legal cybersecurity lab using an ESP8266 D1 Mini.  
 
