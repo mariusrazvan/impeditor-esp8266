@@ -15,7 +15,8 @@ Hardware Limitations:
 3. Limited Data Inspection: Payload-level analysis (DHCP, ARP, etc.) is not possible on this hardware.  
 
 Setup Process:
-  This firmware must be compiled with the Spacehuhn Deauther SDK. The standard ESP8266 Arduino core blocks the injection of management frames required for deauthentication.  1. 1. Add Board URL: In Arduino IDE, go to Preferences and add the following to "Additional Boards Manager URLs":
+  This firmware must be compiled with the Spacehuhn Deauther SDK. The standard ESP8266 Arduino core blocks the injection of management frames required for deauthentication.  
+1. Add Board URL: In Arduino IDE, go to Preferences and add the following to "Additional Boards Manager URLs":
 https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json  
 2. Install Board: Open Boards Manager, search for "deauther," and install "Deauther ESP8266 Boards".  
 3. Select Board: Go to Tools > Board > Deauther ESP8266 Boards and select LOLIN(WEMOS) D1 R2 & mini.  
